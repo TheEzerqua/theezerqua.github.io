@@ -1,0 +1,175 @@
+::selection{
+    background-color: #000000;
+    color: #ffab00;
+}
+
+
+body{
+    background-color: #12131a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.myDiv{
+    background-color: #ffab00;
+    padding:50px 20px 20px 20px;
+    margin: 20px 20px; 
+    width: 280px;
+    border-radius: 0;
+    text-align: center;
+    background-image: url(icon.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center 10px;
+
+}
+
+
+
+.header{
+    background-color: #0c0c0c;
+    padding: 8px;
+
+}
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1350px;
+    margin: auto;
+}
+
+
+.wrapper2{
+    display: flex;
+    width: 960px;
+    
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+h2{
+    justify-content: center;
+    font-family: 'Ruda', sans-serif;
+
+}
+
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+ul a{
+    color: #ffab00;
+    text-decoration: none;
+    margin: 0 15px;
+    border: 2px solid #ffab00;
+    padding: 5px 15px;
+    border-radius: 20px;
+
+}
+
+
+ul a:hover{
+    /*border-bottom: 3px  solid#ffab00;*/
+    background-color: #ffab00;
+    color: #0c0c0c;
+}
+
+
+.logo{
+    background-image: url(LOGOwhite.svg);
+    background-size: cover;
+    display: block;
+    height: 70px;
+    width: 70px;
+    margin: 5px 0;
+}
+
+.logo span{
+    display: none;
+}
+
+.hero{
+    background: url(gtav.jpg);
+    margin: 0;
+    height: 840px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 0.1em black, 0 0 0.5em black
+    
+    
+}
+
+
+.button{
+    position: absolute;
+    background-color: #ffab00;
+    text-transform: uppercase;
+    transition: transform 0.08px;
+    color: #0c0c0c;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-right: 0;
+    transition: .1s;
+
+}
+
+
+.button-wrapper{
+    margin-top: 20px;
+}
+
+.button:hover{
+
+    background-color: #0c0c0c;
+    transform: translate(2px, 2px);
+    color: #ffab00;
+}
+
+
+.social {
+    text-align: center
+  }
+  
+  .social .social-button {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 125px;
+    margin: 0 100px 35px 100px;
+  }
+  
+
+
+
+
